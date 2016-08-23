@@ -1,0 +1,30 @@
+﻿<Page x:Class="WpfMusicSchool.View.StudentView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfMusicSchool.View"
+      xmlns:userControl="clr-namespace:WpfMusicSchool.MyUserControl"
+      mc:Ignorable="d">
+
+    <Grid Width="147">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="13*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+
+        <Button x:Name="BuyBtn" Grid.Column="1" Content="Buy" Grid.ColumnSpan="2" Margin="14,2,30,38"/>
+        <Button x:Name="navigation" Grid.Row="0" Content="Navigate" Click="navigation_Click" Margin="5,0,0,38" />
+    </Grid>
+</Page>
+
+

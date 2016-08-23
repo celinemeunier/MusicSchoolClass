@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MusicSchoolClass.API.WebServiceManager&lt;T&gt;" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAgAAAgAgABAAAAAAAAACAEAAAAAAABAABAAAAg=</HashCode>
+      <FileName>API\WebServiceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.AsyncTask.AsyncFactory" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AsyncTask\AsyncFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.DataBase.FullDb" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAKADAAAAAAAAAAAAABAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\FullDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.DataBase.MySQLManager&lt;TEntity&gt;" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAABAAAAAAAAAAAEIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\MySQLManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Enums.StringValueAttribute" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\StringValueAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Enums.EnumString" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\StringValueAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.JSON.Sandbox" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JSON\Sandbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Base.EntityBase" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAIAAAAAAAgAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Base\EntityBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MusicSchoolClass.Models.Date" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAAABAgAAAQAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Date.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Models.Instruments" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAIAAAACAAAEAAIAABACABAAAAAAAAAAQAAAAgA=</HashCode>
+      <FileName>Models\Instruments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Models.MusicClass" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQgAAIEIAACAAAAAAAAAAAAAAABAAAAAQAgA=</HashCode>
+      <FileName>Models\MusicClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Models.Price" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAgCAAAAAgAQAAAQEAAAEAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Price.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Models.Room" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEECAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAgA=</HashCode>
+      <FileName>Models\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Models.School" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAIAAAAiAAAAIAAAAgA=</HashCode>
+      <FileName>Models\School.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Models.Student" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAQAAAAUAEAAUABAAEAAAKAAAAAwAAAgE=</HashCode>
+      <FileName>Models\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicSchoolClass.Models.Teacher" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEAAAABAAAQAEAAUABAAEAAACAAAAAwAAAgE=</HashCode>
+      <FileName>Models\Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MusicSchoolClass.FakerFolder.IFakerLoader&lt;T&gt;" Collapsed="true">
+    <Position X="20.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>FakerFolder\IFakerLoader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MusicSchoolClass.Enums.DataConnectionResource" Collapsed="true">
+    <Position X="20.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\DataConnectionResource.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
